@@ -14,6 +14,7 @@
     </head>
     <body>
         <div class="container">
+            <div class="alert"><?php echo $this->session->flashdata('message');?></div>
             <div class="jumbotron">
                 <h1>Soft Firme</h1>
                 <h3>Bine ati venit !</h3>

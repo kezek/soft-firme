@@ -14,6 +14,7 @@
     </head>
     <body>
         <div class="container">
+            <div class="alert"><?php echo $this->session->flashdata('message');?></div>
             <div class="jumbotron">
                 <form action="adaugaPost" method="post">
                     <label for="nume">Nume firma: </label>
