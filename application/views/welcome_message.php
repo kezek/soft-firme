@@ -18,7 +18,7 @@
                 <h1>Soft Firme</h1>
                 <h3>Bine ati venit !</h3>
                 <p>
-                    <a class="btn btn-lg btn-success" href="#" role="button">Adauga firma</a>
+                    <a class="btn btn-lg btn-success" href="<?php echo site_url("firme/adauga");?>" role="button">Adauga firma</a>
                 </p>
             </div>
             <div class="row">
